@@ -1,0 +1,225 @@
+.advantages {
+  padding: 50px 169px 58px 169px;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages {
+    padding: 50px 16px 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages {
+    padding-top: 0px;
+  }
+}
+
+.advantages__header {
+  text-align: center;
+}
+
+.advantages__title {
+  font-size: 36px;
+  line-height: 42px;
+  margin: calc((150px - 36px) / 2) 0px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages__title {
+    font-size: 24px;
+    line-height: 28px;
+    margin: calc((120px - 24px) / 2) 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__title {
+    font-size: 18px;
+    line-height: 21px;
+    margin: calc((120px - 18px) / 2) 0px;
+  }
+}
+
+.advantages__line {
+  max-width: 170px;
+  border-bottom: 1px solid #ec7979;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages__line {
+    max-width: 142px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__line {
+    max-width: 134px;
+    margin-bottom: 25px;
+  }
+}
+
+.advantages__description {
+  color: #86878b;
+  margin-bottom: 110px;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages__description {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 65.72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__description {
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 83.72px;
+  }
+}
+
+.advantages__container {
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages__container {
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__container {
+    margin-left: 0;
+    margin-bottom: -43.72px;
+    display: block;
+  }
+}
+
+.advantages__card {
+  flex-basis: 33.33%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages__card {
+    margin-left: 20px;
+  }
+}
+
+.card__image {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ec7979;
+  margin-bottom: calc(39px + (100px - 24px) / 2);
+}
+
+@media screen and (max-width: 1024px) {
+  .card__image {
+    width: 79.55px;
+    height: 79.55px;
+    margin-bottom: calc(33.72px + (82px - 18px) / 2);
+  }
+}
+
+.card__image--light {
+  display: inline-block;
+  background-image: url(../images/icon_1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 65.29px;
+  height: 65.29px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__image--light {
+    width: 56.46px;
+    height: 56.46px;
+  }
+}
+
+.card__image--keyboard {
+  display: inline-block;
+  background-image: url(../images/icon_2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 66px;
+  height: 46px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__image--keyboard {
+    width: 57.07px;
+    height: 39.78px;
+  }
+}
+
+.card__image--lightning {
+  display: inline-block;
+  background-image: url(../images/icon_3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 44px;
+  height: 66px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__image--lightning {
+    width: 38.05px;
+    height: 57.07px;
+  }
+}
+
+.card__title {
+  font-family: "Open Sans";
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  margin-bottom: calc(8px + (100px - 24px) / 2);
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__title {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: calc(17px + (82px - 18px) / 2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__title {
+    margin-bottom: calc(9px + (82px - 18px) / 2);
+  }
+}
+
+.card__description {
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__description {
+    margin-bottom: 43.72px;
+  }
+}
